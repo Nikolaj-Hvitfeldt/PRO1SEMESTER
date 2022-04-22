@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/LO10_simplegame/LO10_simplegame.iml" filepath="$PROJECT_DIR$/LO10_simplegame/LO10_simplegame.iml" />
+      <module fileurl="file://$PROJECT_DIR$/LO12_arrays/LO12_arrays.iml" filepath="$PROJECT_DIR$/LO12_arrays/LO12_arrays.iml" />
+      <module fileurl="file://$PROJECT_DIR$/LO13_2dims_arrays/LO13_2dims_arrays.iml" filepath="$PROJECT_DIR$/LO13_2dims_arrays/LO13_2dims_arrays.iml" />
+      <module fileurl="file://$PROJECT_DIR$/LO14_arraylists/LO14_arraylists.iml" filepath="$PROJECT_DIR$/LO14_arraylists/LO14_arraylists.iml" />
+      <module fileurl="file://$PROJECT_DIR$/LO15_GUI1/LO15_GUI1.iml" filepath="$PROJECT_DIR$/LO15_GUI1/LO15_GUI1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/LO16_GUI2/LO16_GUI2.iml" filepath="$PROJECT_DIR$/LO16_GUI2/LO16_GUI2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/LO17_specifications/LO17_specifications.iml" filepath="$PROJECT_DIR$/LO17_specifications/LO17_specifications.iml" />
+      <module fileurl="file://$PROJECT_DIR$/LO18_Yatzy/LO18_Yatzy.iml" filepath="$PROJECT_DIR$/LO18_Yatzy/LO18_Yatzy.iml" />
+      <module fileurl="file://$PROJECT_DIR$/LO2-Shapes/LO2-Shapes.iml" filepath="$PROJECT_DIR$/LO2-Shapes/LO2-Shapes.iml" />
+      <module fileurl="file://$PROJECT_DIR$/LO20_forbindelser/LO20_forbindelser.iml" filepath="$PROJECT_DIR$/LO20_forbindelser/LO20_forbindelser.iml" />
+      <module fileurl="file://$PROJECT_DIR$/LO21_forbindelser_2/LO21_forbindelser_2.iml" filepath="$PROJECT_DIR$/LO21_forbindelser_2/LO21_forbindelser_2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/LO22_arkitektur/LO22_arkitektur.iml" filepath="$PROJECT_DIR$/LO22_arkitektur/LO22_arkitektur.iml" />
+      <module fileurl="file://$PROJECT_DIR$/LO22_arkitektur_ex2/LO22_arkitektur_ex2.iml" filepath="$PROJECT_DIR$/LO22_arkitektur_ex2/LO22_arkitektur_ex2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/LO23_enumeration/LO23_enumeration.iml" filepath="$PROJECT_DIR$/LO23_enumeration/LO23_enumeration.iml" />
+      <module fileurl="file://$PROJECT_DIR$/LO4_klasser/LO4_klasser.iml" filepath="$PROJECT_DIR$/LO4_klasser/LO4_klasser.iml" />
+      <module fileurl="file://$PROJECT_DIR$/LO5_typer/LO5_typer.iml" filepath="$PROJECT_DIR$/LO5_typer/LO5_typer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/LO6_if-else_Scanner/LO6_if-else_Scanner.iml" filepath="$PROJECT_DIR$/LO6_if-else_Scanner/LO6_if-else_Scanner.iml" />
+      <module fileurl="file://$PROJECT_DIR$/LO7_opsamling/LO7_opsamling.iml" filepath="$PROJECT_DIR$/LO7_opsamling/LO7_opsamling.iml" />
+      <module fileurl="file://$PROJECT_DIR$/LO8_while_loops/LO8_while_loops.iml" filepath="$PROJECT_DIR$/LO8_while_loops/LO8_while_loops.iml" />
+      <module fileurl="file://$PROJECT_DIR$/LO9_for_loops/LO9_for_loops.iml" filepath="$PROJECT_DIR$/LO9_for_loops/LO9_for_loops.iml" />
+      <module fileurl="file://$PROJECT_DIR$/PRO1SEMESTER.iml" filepath="$PROJECT_DIR$/PRO1SEMESTER.iml" />
+      <module fileurl="file://$PROJECT_DIR$/semesterTest/semesterTest.iml" filepath="$PROJECT_DIR$/semesterTest/semesterTest.iml" />
+    </modules>
+  </component>
+</project>
