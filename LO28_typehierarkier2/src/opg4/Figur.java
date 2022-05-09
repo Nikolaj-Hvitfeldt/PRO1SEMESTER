@@ -10,5 +10,19 @@ public abstract class Figur {
         this.yPos = yPos;
     }
 
+    public void moveXPos(int xPos) {
+        this.xPos += xPos;
+    }
+
+    public void moveYPos(int yPos) {
+        this.yPos += yPos;
+    }
+
     public abstract double area();
+
+    @Override
+    public String toString() {
+        String s = String.format("(%d,%d)",xPos, yPos);
+        return s;
+    }
 }

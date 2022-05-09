@@ -18,6 +18,7 @@ public class Ellipse extends Figur{
 
     @Override
     public String toString() {
-        return "Ellipse" +
+        String str = String.format("Ellipse %s Storeakse: %d Lilleakse: %d", super.toString(), bigRadius, smallRadius);
+        return str;
     }
 }

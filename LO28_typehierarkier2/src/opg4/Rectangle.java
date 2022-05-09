@@ -15,4 +15,7 @@ public class Rectangle extends Figur{
     public double area() {
         return side1 * side2;
     }
-}
+    public String toString() {
+        String str = String.format("Rectangle %s 1st side: %d 2nd side: %d", super.toString(), side1, side2);
+        return str;
+}}
