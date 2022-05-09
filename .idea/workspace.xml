@@ -5,12 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7d99e3a9-8e24-4ec5-8aa8-bb0fe1ccd244" name="Changes" comment="Eyo">
-      <change afterPath="$PROJECT_DIR$/LO27_typehierarkier1/LO27_typehierarkier1.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LO27_typehierarkier1/src/opg1og2/Foreman.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LO27_typehierarkier1/src/opg1og2/Mechanic.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LO27_typehierarkier1/src/opg1og2/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LO28_typehierarkier2/LO28_typehierarkier2.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LO28_typehierarkier2/src/opg3/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LO28_typehierarkier2/src/opg3/Foreman.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LO28_typehierarkier2/src/opg3/Mechanic.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LO28_typehierarkier2/src/opg3/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LO28_typehierarkier2/src/opg3/WorkingBoy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LO28_typehierarkier2/src/opg4/Circle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LO28_typehierarkier2/src/opg4/Ellipse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LO28_typehierarkier2/src/opg4/Figur.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LO28_typehierarkier2/src/opg4/Rectangle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LO28_typehierarkier2/src/opg4/Square.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LO28_typehierarkier2/src/opg4/Test.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -58,7 +63,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="jdk.selected.JAVA_MODULE" value="openjdk-17" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/LO22_arkitektur_ex2/src" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/LO28_typehierarkier2/src/opg3" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -66,11 +71,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\nhvit\PRO1SEMESTER\LO28_typehierarkier2\src\opg3" />
       <recent name="C:\Users\nhvit\PRO1SEMESTER\LO22_arkitektur_ex2\src" />
       <recent name="C:\Users\nhvit\PRO1SEMESTER\LO21_forbindelser_2\src\ex_1b" />
       <recent name="C:\Users\nhvit\PRO1SEMESTER\LO20_forbindelser\src\swimmerBackwards" />
       <recent name="C:\Users\nhvit\PRO1SEMESTER\LO10_simplegame\src\pigs" />
-      <recent name="C:\Users\nhvit\PRO1SEMESTER\LO10_simplegame\src\pig" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\nhvit\PRO1SEMESTER" />
@@ -83,7 +88,7 @@
       <recent name="ex_3" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.App">
+  <component name="RunManager" selected="Application.Test (1)">
     <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="demoinputdialog.App" />
       <module name="LO16_GUI2" />
@@ -136,12 +141,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ex_2.Test" />
-      <module name="LO21_forbindelser_2" />
+    <configuration name="Test (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="opg3.Test" />
+      <module name="LO28_typehierarkier2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ex_2.*" />
+          <option name="PATTERN" value="opg3.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -151,11 +156,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Test (1)" />
         <item itemvalue="Application.App" />
         <item itemvalue="Application.DogeTest" />
         <item itemvalue="Application.ArchitectureApp (1)" />
         <item itemvalue="Application.ArchitectureApp" />
-        <item itemvalue="Application.Test" />
       </list>
     </recent_temporary>
   </component>
