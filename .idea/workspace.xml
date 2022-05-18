@@ -5,10 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7d99e3a9-8e24-4ec5-8aa8-bb0fe1ccd244" name="Changes" comment="Exercises for søgning">
-      <change afterPath="$PROJECT_DIR$/LO30_Søgning/src/exercise4/Player.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LO30_Søgning/src/exercise4/TestApp.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LO30_Søgning/src/exercises/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/LO30_Søgning/src/exercise1to3/App.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
