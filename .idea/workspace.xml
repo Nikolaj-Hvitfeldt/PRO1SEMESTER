@@ -4,12 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7d99e3a9-8e24-4ec5-8aa8-bb0fe1ccd244" name="Changes" comment="added opg2 LO32 Files&amp;exception">
-      <change afterPath="$PROJECT_DIR$/LO32_files&amp;exceptions/src/opg3/opg3.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LO32_files&amp;exceptions/src/opg3/opg_3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LO32_files&amp;exceptions/src/opg4/opg4.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LO32_files&amp;exceptions/src/opg4/opg_4.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="7d99e3a9-8e24-4ec5-8aa8-bb0fe1ccd244" name="Changes" comment="added opg3 og opg4 LO32 Files&amp;exception">
+      <change afterPath="$PROJECT_DIR$/LO32_files&amp;exceptions/src/opg5/opg5.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LO32_files&amp;exceptions/src/opg5/opg_5.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LO32_files&amp;exceptions/src/opg4/opg_4.java" beforeDir="false" afterPath="$PROJECT_DIR$/LO32_files&amp;exceptions/src/opg4/opg_4.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -181,6 +179,7 @@
     <MESSAGE value="added demos to LO32 Files&amp;exception" />
     <MESSAGE value="added opg1 LO32 Files&amp;exception" />
     <MESSAGE value="added opg2 LO32 Files&amp;exception" />
-    <option name="LAST_COMMIT_MESSAGE" value="added opg2 LO32 Files&amp;exception" />
+    <MESSAGE value="added opg3 og opg4 LO32 Files&amp;exception" />
+    <option name="LAST_COMMIT_MESSAGE" value="added opg3 og opg4 LO32 Files&amp;exception" />
   </component>
 </project>

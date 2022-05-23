@@ -12,13 +12,15 @@ public class opg_4 {
         File out = new File(fileName);
         try (Scanner scanner = new Scanner(System.in);
              PrintWriter writer = new PrintWriter(out)) {
-            System.out.println("Type a number: (end with -1)");
+            System.out.println("Type a positive number: (end with -1)");
             boolean finished = false;
             while (!finished) {
                 try {
                     int d = scanner.nextInt();
                     if (d == -1) {
                         finished = true;
+                    }else if (d < 0 ){
+                        System.out.println("NOT a positive number!");
                     } else {
                         System.out.println("Typed in: " + d);
                         System.out.println();
@@ -26,7 +28,7 @@ public class opg_4 {
 
                     }
                 } catch (InputMismatchException ex) {
-                    System.out.println("NOT a number!");
+                    System.out.println("NOT a positive number!");
                     System.out.println();
                     scanner.nextLine();
                 }
