@@ -19,7 +19,7 @@ public class opg_4 {
                     int d = scanner.nextInt();
                     if (d == -1) {
                         finished = true;
-                    }else if (d < 0 ){
+                    } else if (d < 0) {
                         System.out.println("NOT a positive number!");
                     } else {
                         System.out.println("Typed in: " + d);
