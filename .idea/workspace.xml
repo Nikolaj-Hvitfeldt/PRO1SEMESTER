@@ -4,7 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7d99e3a9-8e24-4ec5-8aa8-bb0fe1ccd244" name="Changes" comment="Exercises for søgning">
+    <list default="true" id="7d99e3a9-8e24-4ec5-8aa8-bb0fe1ccd244" name="Changes" comment="Created LO31 Sorting">
+      <change afterPath="$PROJECT_DIR$/LO31_Sorting/LO31_Sorting.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LO31_Sorting/src/demosorting/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LO31_Sorting/src/demosorting/Player.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LO31_Sorting/src/ex_1/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -45,12 +50,14 @@
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="Downloaded.Files.Path.Enabled" value="false" />
     <property name="Repository.Attach.Annotations" value="false" />
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="jdk.selected.JAVA_MODULE" value="openjdk-17" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/LO28_typehierarkier2/src/opg3" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -171,6 +178,7 @@
     <MESSAGE value="typehierarkier opgaver" />
     <MESSAGE value="Søgning opretttet" />
     <MESSAGE value="Exercises for søgning" />
-    <option name="LAST_COMMIT_MESSAGE" value="Exercises for søgning" />
+    <MESSAGE value="Created LO31 Sorting" />
+    <option name="LAST_COMMIT_MESSAGE" value="Created LO31 Sorting" />
   </component>
 </project>
