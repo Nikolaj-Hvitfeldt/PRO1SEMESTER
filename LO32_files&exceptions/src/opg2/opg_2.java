@@ -1,24 +1,28 @@
-package opg1;
+package opg2;
 
 import java.io.File;
 import java.io.FileNotFoundException;
+import java.util.ArrayList;
+import java.util.Collection;
+import java.util.Collections;
 import java.util.Scanner;
 
-public class opg_1 {
+public class opg_2 {
 
     public static void main(String[] args) {
 
-        String fileName = "LO32_files&exceptions/src/opg1/opg2.txt";
+        ArrayList<Integer> arrayListTest = new ArrayList<>();
+
+        String fileName = "LO32_files&exceptions/src/opg2/opg2.txt";
         File in = new File(fileName);
         try (Scanner scanner = new Scanner(in)) {
-            int sum = 0;
             while (scanner.hasNextInt()) {
                 int d = scanner.nextInt();
-                System.out.println(d*2);
+                arrayListTest.add(d);
 //                scanner.nextLine();
-                sum += d*2;
             }
-            System.out.println("Sum is " + sum);
+            Collections.reverse(arrayListTest);
+            System.out.println(arrayListTest);
         } catch (FileNotFoundException e) {
             System.out.println("File not found!");
             e.printStackTrace();

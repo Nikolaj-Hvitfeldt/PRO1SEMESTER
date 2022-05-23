@@ -4,10 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7d99e3a9-8e24-4ec5-8aa8-bb0fe1ccd244" name="Changes" comment="added demos to LO32 Files&amp;exception">
-      <change afterPath="$PROJECT_DIR$/LO32_files&amp;exceptions/src/opg1/opg1.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LO32_files&amp;exceptions/src/opg1/opg_1.java" afterDir="false" />
+    <list default="true" id="7d99e3a9-8e24-4ec5-8aa8-bb0fe1ccd244" name="Changes" comment="added opg1 LO32 Files&amp;exception">
+      <change afterPath="$PROJECT_DIR$/LO32_files&amp;exceptions/src/opg2/opg2.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LO32_files&amp;exceptions/src/opg2/opg_2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LO32_files&amp;exceptions/src/opg1/opg_1.java" beforeDir="false" afterPath="$PROJECT_DIR$/LO32_files&amp;exceptions/src/opg1/opg_1.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,7 +56,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="jdk.selected.JAVA_MODULE" value="openjdk-17" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/LO28_typehierarkier2/src/opg3" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/LO32_files&amp;exceptions/src/opg2" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -63,11 +64,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\nhvit\PRO1SEMESTER\LO32_files&amp;exceptions\src\opg2" />
       <recent name="C:\Users\nhvit\PRO1SEMESTER\LO28_typehierarkier2\src\opg3" />
       <recent name="C:\Users\nhvit\PRO1SEMESTER\LO22_arkitektur_ex2\src" />
       <recent name="C:\Users\nhvit\PRO1SEMESTER\LO21_forbindelser_2\src\ex_1b" />
       <recent name="C:\Users\nhvit\PRO1SEMESTER\LO20_forbindelser\src\swimmerBackwards" />
-      <recent name="C:\Users\nhvit\PRO1SEMESTER\LO10_simplegame\src\pigs" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\nhvit\PRO1SEMESTER" />
@@ -80,7 +81,7 @@
       <recent name="ex_3" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.opg_1">
+  <component name="RunManager" selected="Application.opg_2">
     <configuration name="App (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ex1.App" />
       <module name="LO30_Søgning" />
@@ -120,19 +121,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="childapp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ex_2.childapp" />
-      <module name="LO6_if-else_Scanner" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ex_2.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="opg_1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="opg1.opg_1" />
       <module name="LO32_files&amp;exceptions" />
@@ -146,13 +134,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="opg_2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="opg2.opg_2" />
+      <module name="LO32_files&amp;exceptions" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="opg2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.opg_2" />
         <item itemvalue="Application.opg_1" />
         <item itemvalue="Application.TestApp" />
         <item itemvalue="Application.App (2)" />
         <item itemvalue="Application.App (1)" />
-        <item itemvalue="Application.childapp" />
       </list>
     </recent_temporary>
   </component>
@@ -177,6 +178,7 @@
     <MESSAGE value="Created LO31 Sorting" />
     <MESSAGE value="Created LO32 Files exception" />
     <MESSAGE value="added demos to LO32 Files&amp;exception" />
-    <option name="LAST_COMMIT_MESSAGE" value="added demos to LO32 Files&amp;exception" />
+    <MESSAGE value="added opg1 LO32 Files&amp;exception" />
+    <option name="LAST_COMMIT_MESSAGE" value="added opg1 LO32 Files&amp;exception" />
   </component>
 </project>
