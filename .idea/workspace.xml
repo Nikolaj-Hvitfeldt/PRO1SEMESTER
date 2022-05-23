@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7d99e3a9-8e24-4ec5-8aa8-bb0fe1ccd244" name="Changes" comment="Created LO32 Files exception" />
+    <list default="true" id="7d99e3a9-8e24-4ec5-8aa8-bb0fe1ccd244" name="Changes" comment="added demos to LO32 Files&amp;exception">
+      <change afterPath="$PROJECT_DIR$/LO32_files&amp;exceptions/src/opg1/opg1.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LO32_files&amp;exceptions/src/opg1/opg_1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -76,7 +80,7 @@
       <recent name="ex_3" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.TestApp">
+  <component name="RunManager" selected="Application.opg_1">
     <configuration name="App (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ex1.App" />
       <module name="LO30_Søgning" />
@@ -96,19 +100,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="exercises.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="opg4.Test" />
-      <module name="LO28_typehierarkier2" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="opg4.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -142,13 +133,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="opg_1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="opg1.opg_1" />
+      <module name="LO32_files&amp;exceptions" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="opg1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.opg_1" />
         <item itemvalue="Application.TestApp" />
         <item itemvalue="Application.App (2)" />
         <item itemvalue="Application.App (1)" />
         <item itemvalue="Application.childapp" />
-        <item itemvalue="Application.Test" />
       </list>
     </recent_temporary>
   </component>
@@ -172,6 +176,7 @@
     <MESSAGE value="Exercises for søgning" />
     <MESSAGE value="Created LO31 Sorting" />
     <MESSAGE value="Created LO32 Files exception" />
-    <option name="LAST_COMMIT_MESSAGE" value="Created LO32 Files exception" />
+    <MESSAGE value="added demos to LO32 Files&amp;exception" />
+    <option name="LAST_COMMIT_MESSAGE" value="added demos to LO32 Files&amp;exception" />
   </component>
 </project>
