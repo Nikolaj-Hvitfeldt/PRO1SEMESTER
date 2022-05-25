@@ -5,7 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7d99e3a9-8e24-4ec5-8aa8-bb0fe1ccd244" name="Changes" comment="added opg3 og opg4 LO32 Files&amp;exception">
-      <change beforePath="$PROJECT_DIR$/LO32_files&amp;exceptions/src/opg4/opg_4.java" beforeDir="false" afterPath="$PROJECT_DIR$/LO32_files&amp;exceptions/src/opg4/opg_4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LO33_merging/LO33_merging.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LO33_merging/src/opg1/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LO33_merging/src/opg1/Customer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LO33_merging/src/opg2/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LO33_merging/src/opg2/Customer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,9 +58,10 @@
     <property name="Repository.Attach.Sources" value="false" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="jdk.selected.JAVA_MODULE" value="openjdk-17" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/LO32_files&amp;exceptions/src/opg2" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
@@ -75,16 +82,17 @@
       <recent name="C:\Users\nhvit\PRO1SEMESTER\hehehe\src\hihihi" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="opg2" />
       <recent name="ex_3" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.opg_4">
-    <configuration name="TestApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="exercise4.TestApp" />
-      <module name="LO30_Søgning" />
+  <component name="RunManager" selected="Application.App (1)">
+    <configuration name="App (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="opg2.App" />
+      <module name="LO33_merging" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="exercise4.*" />
+          <option name="PATTERN" value="opg2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -92,9 +100,9 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="opg_1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="opg1.opg_1" />
-      <module name="LO32_files&amp;exceptions" />
+    <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="opg1.App" />
+      <module name="LO33_merging" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="opg1.*" />
@@ -146,11 +154,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.App (1)" />
+        <item itemvalue="Application.App" />
         <item itemvalue="Application.opg_4" />
         <item itemvalue="Application.opg_3" />
         <item itemvalue="Application.opg_2" />
-        <item itemvalue="Application.opg_1" />
-        <item itemvalue="Application.TestApp" />
       </list>
     </recent_temporary>
   </component>
