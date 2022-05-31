@@ -1,4 +1,4 @@
-package model;
+package semesterprøve_2013.model;
 
 import java.time.LocalDate;
 

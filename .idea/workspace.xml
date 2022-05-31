@@ -4,14 +4,24 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7d99e3a9-8e24-4ec5-8aa8-bb0fe1ccd244" name="Changes" comment="added opg3 og opg4 LO32 Files&amp;exception">
-      <change afterPath="$PROJECT_DIR$/LO33_merging/LO33_merging.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LO33_merging/src/opg1/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LO33_merging/src/opg1/Customer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LO33_merging/src/opg2/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LO33_merging/src/opg2/Customer.java" afterDir="false" />
+    <list default="true" id="7d99e3a9-8e24-4ec5-8aa8-bb0fe1ccd244" name="Changes" comment="added LO33 merging and opg1, opg2">
+      <change afterPath="$PROJECT_DIR$/LO30_Søgning/src/exercise5/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LO30_Søgning/src/exercise6/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LO30_Søgning/src/exercise7/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LO30_Søgning/src/exercise8/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LO30_Søgning/src/exercise9/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LO33_merging/src/opg3/Customer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LO6_if-else_Scanner/src/ex_3/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LO6_if-else_Scanner/src/ex_3/Copier.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LO13_2dims_arrays/src/ex_2/RandomTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/LO13_2dims_arrays/src/ex_2/RandomTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LO33_merging/src/opg3/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/LO33_merging/src/opg3/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/semesterTest/src/model/Area.java" beforeDir="false" afterPath="$PROJECT_DIR$/semesterTest/src/semesterprøve_2013/model/Area.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/semesterTest/src/model/Event.java" beforeDir="false" afterPath="$PROJECT_DIR$/semesterTest/src/semesterprøve_2013/model/Event.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/semesterTest/src/model/Reservation.java" beforeDir="false" afterPath="$PROJECT_DIR$/semesterTest/src/semesterprøve_2013/model/Reservation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/semesterTest/src/model/Seat.java" beforeDir="false" afterPath="$PROJECT_DIR$/semesterTest/src/semesterprøve_2013/model/Seat.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/semesterTest/src/model/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/semesterTest/src/semesterprøve_2013/model/Test.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -82,17 +92,57 @@
       <recent name="C:\Users\nhvit\PRO1SEMESTER\hehehe\src\hihihi" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="opg3" />
       <recent name="opg2" />
       <recent name="ex_3" />
     </key>
   </component>
   <component name="RunManager" selected="Application.App (1)">
     <configuration name="App (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="opg2.App" />
-      <module name="LO33_merging" />
+      <option name="MAIN_CLASS_NAME" value="exercise8.App" />
+      <module name="LO30_Søgning" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="opg2.*" />
+          <option name="PATTERN" value="exercise8.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="App (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="exercise5.App" />
+      <module name="LO30_Søgning" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="exercise5.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="App (4)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="exercise6.App" />
+      <module name="LO30_Søgning" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="exercise6.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="App (5)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="opgave1.App" />
+      <module name="LO8_while_loops" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="opgave1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -101,50 +151,11 @@
       </method>
     </configuration>
     <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="opg1.App" />
-      <module name="LO33_merging" />
+      <option name="MAIN_CLASS_NAME" value="exercise7.App" />
+      <module name="LO30_Søgning" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="opg1.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="opg_2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="opg2.opg_2" />
-      <module name="LO32_files&amp;exceptions" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="opg2.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="opg_3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="opg3.opg_3" />
-      <module name="LO32_files&amp;exceptions" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="opg3.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="opg_4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="opg4.opg_4" />
-      <module name="LO32_files&amp;exceptions" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="opg4.*" />
+          <option name="PATTERN" value="exercise7.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -156,9 +167,9 @@
       <list>
         <item itemvalue="Application.App (1)" />
         <item itemvalue="Application.App" />
-        <item itemvalue="Application.opg_4" />
-        <item itemvalue="Application.opg_3" />
-        <item itemvalue="Application.opg_2" />
+        <item itemvalue="Application.App (5)" />
+        <item itemvalue="Application.App (4)" />
+        <item itemvalue="Application.App (3)" />
       </list>
     </recent_temporary>
   </component>
@@ -186,6 +197,7 @@
     <MESSAGE value="added opg1 LO32 Files&amp;exception" />
     <MESSAGE value="added opg2 LO32 Files&amp;exception" />
     <MESSAGE value="added opg3 og opg4 LO32 Files&amp;exception" />
-    <option name="LAST_COMMIT_MESSAGE" value="added opg3 og opg4 LO32 Files&amp;exception" />
+    <MESSAGE value="added LO33 merging and opg1, opg2" />
+    <option name="LAST_COMMIT_MESSAGE" value="added LO33 merging and opg1, opg2" />
   </component>
 </project>

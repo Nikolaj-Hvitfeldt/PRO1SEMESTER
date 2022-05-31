@@ -1,34 +1,61 @@
 package ex_2;
 
+import java.util.Arrays;
 import java.util.Random;
 
 public class RandomTest {
 
     public static void main(String[] args) {
+                String[][] questions = new String[10][8];
+                String[] answers = {"A", "B", "C", "D", "A", "B", "C", "D", "A", "B"};
+                Random rd = new Random();
 
-        final int row = 8;
-        final int col = 10;
+                for (int s = 0; s < questions[0].length; s++) {
+                    for (int q = 0; q < questions.length; q++) {
+                        int rand = rd.nextInt(4);
+                        if (rand == 0) {
+                            questions[q][s] = "A";
+                        } else if (rand == 1) {
+                            questions[q][s] = "B";
+                        } else if (rand == 2) {
+                            questions[q][s] = "C";
+                        } else {
+                            questions[q][s] = "D";
+                        }
+                    }
+                }
 
-        char[][] answers = new char[row][col];
+                System.out.println("Correct answers: " + Arrays.toString(answers));
+                for (int r = 0; r < questions.length; r++) {
+                    System.out.printf("Question %d: ", r + 1);
+                    for (int c = 0; c < questions[0].length; c++) {
+                        System.out.printf("%3s",questions[r][c]);
+                    }
+                    System.out.println();
+                }
 
-        String[] studentNames = {
-                "Student 1",
-                "Student 2",
-                "Student 3",
-                "Student 4",
-                "Student 5",
-                "Student 6",
-                "Student 7",
-                "Student 8",
-        };
+                int[] studentCorrectAnswers = new int[8];
+                for(int c = 0; c < questions[0].length; c++){
+                    int studentAnswers = 0;
+                    for(int r = 0; r < questions.length; r++){
+                        if(questions[r][c] == answers[r]){
+                            studentAnswers++;
+                        }
+                    }
+                    studentCorrectAnswers[c] = studentAnswers;
+                }
+                System.out.println("Students correct answers: " + Arrays.toString(studentCorrectAnswers));
 
-
-//        public static void putChar ( char[][] array){
-//            Random random = new Random();
-//            for (int r = 0; r < array.length; r++) {
-//                for (int c = 0; c < array[r].length; c++)
-//                    answers[r][c] = (char) (random.nextInt(4) + 'A');
-//            }
-//        }
-    }
-}
+                int[] questionsAnsweredCorrect = new int[10];
+                for(int r = 0; r < questions.length; r++){
+                    int correctAnswers = 0;
+                    for(int c = 0; c < questions[r].length; c++){
+                        if(questions[r][c] == answers[r]){
+                            correctAnswers++;
+                        }
+                    }
+                    questionsAnsweredCorrect[r] = correctAnswers;
+                }
+                System.out.println("Right answers per question: " + Arrays.toString(questionsAnsweredCorrect));
+            }
+        }
