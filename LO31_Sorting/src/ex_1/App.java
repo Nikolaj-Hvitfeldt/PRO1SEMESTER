@@ -19,21 +19,24 @@ public class App {
         test.add(str3);
         test.add(str4);
         test.add(str5);
+        System.out.println(test);
+
+        System.out.println(bubbleSort(test));
 
     }
-//    public static void bubbleSort(ArrayList<String> arr) {
-//        // 'arr' consists of an unsorted part followed by a sorted part
-//        // 'i' is the index of the last number in the unsorted part
-//        for (int i = arr.size() - 1; i > 0; i--) {
-//            // bubble the largest value in arr[0..i] up to arr[i]
-//            for (int j = 0; j < i; j++) {
-//                if (arr.get(j).compareTo(arr.get(j + 1)){
-//                    // swap arr[j] and arr[j+1]
-//                    String temp = arr.get(j);
-//                    arr.get(j) = arr.get(j + 1);
-//                    arr[j + 1] = temp;
-//                }
-//            }
-//        }
+
+    public static ArrayList<String> bubbleSort(ArrayList<String> arr) {
+        for (int i = arr.size() - 1; i > 0; i--) {
+            for (int j = 0; j < i; j++)
+                // comparing adjacent strings
+                if (arr.get(j).compareTo(arr.get(j + 1)) > 0) {
+                    String temp = arr.get(j);
+                    arr.set(j, arr.get(j + 1));
+                    arr.set(j + 1, temp);
+                }
+        }
+        return arr;
     }
+}
+
 
