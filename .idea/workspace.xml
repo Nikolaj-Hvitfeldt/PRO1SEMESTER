@@ -4,13 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7d99e3a9-8e24-4ec5-8aa8-bb0fe1ccd244" name="Changes" comment="added all opgaver">
-      <change afterPath="$PROJECT_DIR$/Semesterprøve_2017/src/model/Arrangement.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Semesterprøve_2017/src/model/KonsolPlads.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Semesterprøve_2017/src/model/Omraade.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Semesterprøve_2017/src/model/Plads.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Semesterprøve_2017/src/model/Reservation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Semesterprøve_2017/src/storage/Storage.java" afterDir="false" />
+    <list default="true" id="7d99e3a9-8e24-4ec5-8aa8-bb0fe1ccd244" name="Changes" comment="Added semesterprøve 2017">
+      <change afterPath="$PROJECT_DIR$/Semesterprøve_2017/src/controller/Controller.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -188,6 +183,7 @@
     <MESSAGE value="added opg3 og opg4 LO32 Files&amp;exception" />
     <MESSAGE value="added LO33 merging and opg1, opg2" />
     <MESSAGE value="added all opgaver" />
-    <option name="LAST_COMMIT_MESSAGE" value="added all opgaver" />
+    <MESSAGE value="Added semesterprøve 2017" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added semesterprøve 2017" />
   </component>
 </project>
