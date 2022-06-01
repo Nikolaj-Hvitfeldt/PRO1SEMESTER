@@ -4,13 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7d99e3a9-8e24-4ec5-8aa8-bb0fe1ccd244" name="Changes" comment="Added opg9 searching">
-      <change afterPath="$PROJECT_DIR$/LO31_Sorting/src/ex_2/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LO31_Sorting/src/ex_2/Customer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LO31_Sorting/src/ex_3/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LO31_Sorting/src/ex_3/Customer.java" afterDir="false" />
+    <list default="true" id="7d99e3a9-8e24-4ec5-8aa8-bb0fe1ccd244" name="Changes" comment="Added opg 1,2 og 3 Sorting">
+      <change afterPath="$PROJECT_DIR$/Semesterprøve_2020/Semesterprøve_2020.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Semesterprøve_2020/src/controller/Controller.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Semesterprøve_2020/src/model/Festival.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Semesterprøve_2020/src/model/Frivillig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Semesterprøve_2020/src/model/FrivilligForening.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Semesterprøve_2020/src/model/Job.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Semesterprøve_2020/src/model/Vagt.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Semesterprøve_2020/src/storage/Storage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LO31_Sorting/src/ex_1/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/LO31_Sorting/src/ex_1/App.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -189,6 +193,7 @@
     <MESSAGE value="added all opgaver" />
     <MESSAGE value="Added semesterprøve 2017" />
     <MESSAGE value="Added opg9 searching" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added opg9 searching" />
+    <MESSAGE value="Added opg 1,2 og 3 Sorting" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added opg 1,2 og 3 Sorting" />
   </component>
 </project>
