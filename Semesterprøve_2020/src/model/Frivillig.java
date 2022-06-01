@@ -39,7 +39,7 @@ public class Frivillig {
     }
 
     public int ledigeTimer(Frivillig frivillig) {
-        int ledigeTimer = 0;
+        int ledigeTimer;
         int optagetTimer = 0;
         if (!frivillig.getVagter().isEmpty()) {
             for (Vagt e : frivillig.getVagter()) {
