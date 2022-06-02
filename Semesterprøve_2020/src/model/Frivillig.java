@@ -47,7 +47,7 @@ public class Frivillig {
                 ledigeTimer = getMaksAntalTimer() - optagetTimer;
                 setMaksAntalTimer(ledigeTimer);
             }
-            return getMaksAntalTimer();
-        } else return getMaksAntalTimer();
+        }
+        return getMaksAntalTimer();
     }
 }

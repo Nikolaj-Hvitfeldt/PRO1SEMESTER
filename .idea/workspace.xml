@@ -4,17 +4,40 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7d99e3a9-8e24-4ec5-8aa8-bb0fe1ccd244" name="Changes" comment="Added opg 1,2 og 3 Sorting">
-      <change afterPath="$PROJECT_DIR$/Semesterprøve_2020/Semesterprøve_2020.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Semesterprøve_2020/src/controller/Controller.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Semesterprøve_2020/src/model/Festival.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Semesterprøve_2020/src/model/Frivillig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Semesterprøve_2020/src/model/FrivilligForening.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Semesterprøve_2020/src/model/Job.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Semesterprøve_2020/src/model/Vagt.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Semesterprøve_2020/src/storage/Storage.java" afterDir="false" />
+    <list default="true" id="7d99e3a9-8e24-4ec5-8aa8-bb0fe1ccd244" name="Changes" comment="Added semesterprøve 2020">
+      <change afterPath="$PROJECT_DIR$/Semesterprøve 2020_Michael/Semesterprøve_2020_Michael.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Semesterprøve 2020_Michael/src/controller/Controller.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Semesterprøve 2020_Michael/src/gui/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Semesterprøve 2020_Michael/src/gui/Gui.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Semesterprøve 2020_Michael/src/model/Festival.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Semesterprøve 2020_Michael/src/model/FestivalTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Semesterprøve 2020_Michael/src/model/Frivillig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Semesterprøve 2020_Michael/src/model/FrivilligForening.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Semesterprøve 2020_Michael/src/model/Job.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Semesterprøve 2020_Michael/src/model/Vagt.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Semesterprøve 2020_Michael/src/storage/Storage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Semesterprøve_2015/Semesterprøve_2015.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Semesterprøve_2015/src/controller/Controller.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Semesterprøve_2015/src/model/Deltagelse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Semesterprøve_2015/src/model/Kamp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Semesterprøve_2015/src/model/Profspiller.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Semesterprøve_2015/src/model/Spiller.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Semesterprøve_2015/src/model/test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Semesterprøve_2015/src/storage/Storage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Semesterprøve_2017/Semesterprøve_2017.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Semesterprøve_2018/Semesterprøve_2018.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Semesterprøve_2018/src/controller/Controller.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Semesterprøve_2018/src/gui/Gui.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Semesterprøve_2018/src/gui/test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Semesterprøve_2018/src/model/Arrangement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Semesterprøve_2018/src/model/Hold.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Semesterprøve_2018/src/model/Tutor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Semesterprøve_2018/src/model/Uddannelse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Semesterprøve_2018/src/storage/Storage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Semesterprøve_2020/src/model/Festival.java" beforeDir="false" afterPath="$PROJECT_DIR$/Semesterprøve_2020/src/model/Festival.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Semesterprøve_2020/src/model/Frivillig.java" beforeDir="false" afterPath="$PROJECT_DIR$/Semesterprøve_2020/src/model/Frivillig.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,6 +84,7 @@
     <property name="Repository.Attach.Sources" value="false" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="jdk.selected.JAVA_MODULE" value="openjdk-17" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/LO32_files&amp;exceptions/src/opg2" />
     <property name="project.structure.last.edited" value="Project" />
@@ -89,7 +113,7 @@
       <recent name="opg2" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.App (3)">
+  <component name="RunManager" selected="Application.test">
     <configuration name="App (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="exercise8.App" />
       <module name="LO30_Søgning" />
@@ -129,19 +153,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="App (5)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="opgave1.App" />
-      <module name="LO8_while_loops" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="opgave1.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="exercise7.App" />
       <module name="LO30_Søgning" />
@@ -155,13 +166,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="gui.test" />
+      <module name="Semesterprøve_2018" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="gui.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.test" />
         <item itemvalue="Application.App (3)" />
         <item itemvalue="Application.App (2)" />
         <item itemvalue="Application.App (1)" />
         <item itemvalue="Application.App" />
-        <item itemvalue="Application.App (5)" />
       </list>
     </recent_temporary>
   </component>
@@ -194,6 +218,7 @@
     <MESSAGE value="Added semesterprøve 2017" />
     <MESSAGE value="Added opg9 searching" />
     <MESSAGE value="Added opg 1,2 og 3 Sorting" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added opg 1,2 og 3 Sorting" />
+    <MESSAGE value="Added semesterprøve 2020" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added semesterprøve 2020" />
   </component>
 </project>
