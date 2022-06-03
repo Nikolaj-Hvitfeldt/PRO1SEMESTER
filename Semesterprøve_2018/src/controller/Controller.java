@@ -105,7 +105,7 @@ public class Controller {
 //    public static ObservableList<Arrangement> guiTutorArrangement(Tutor tutor){
 //       ObservableList<Arrangement> observableList = FXCollections.observableList(tutor.getArrangementer());
 //       return observableList;
-    }
+//    }
 
 
 

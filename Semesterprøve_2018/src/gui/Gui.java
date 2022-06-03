@@ -10,12 +10,9 @@ import javafx.geometry.Pos;
 import javafx.geometry.VPos;
 import javafx.scene.Cursor;
 import javafx.scene.Scene;
-import javafx.scene.control.Button;
-import javafx.scene.control.Label;
-import javafx.scene.control.TextField;
+import javafx.scene.control.*;
 import javafx.scene.layout.GridPane;
 import javafx.stage.Stage;
-import javafx.scene.control.ListView;
 import model.Arrangement;
 import model.Tutor;
 
@@ -35,7 +32,7 @@ public class Gui extends Application {
     //----------------------------------------------------------------------------------------
 
     private final ListView<Tutor> lsvtutor = new ListView<>();
-    private final ListView<Arrangement> lsvArrangementer = new ListView<>();
+    private final TextArea txaArrangementer = new TextArea();
     private final ListView<Arrangement> lsvMuligeArrangementer = new ListView<>();
     private final TextField txfNavn = new TextField();
     private final TextField txfEmail = new TextField();
@@ -70,8 +67,8 @@ public class Gui extends Application {
         Label lblArrangement = new Label("Arrangementer:");
         pane.add(lblArrangement,1,2);
         GridPane.setValignment(lblArrangement, VPos.TOP);
-        pane.add(lsvArrangementer,2,2);
-        lsvArrangementer.prefHeight(150);
+        pane.add(txaArrangementer,2,2);
+        txaArrangementer.prefHeight(150);
 
         Button btnFjern = new Button("Fjern");
         pane.add(btnFjern,2,3);
@@ -110,5 +107,4 @@ public class Gui extends Application {
         if (selected != null)
             this.fillFields(selected);
     }
-
 }

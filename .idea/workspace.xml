@@ -4,17 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7d99e3a9-8e24-4ec5-8aa8-bb0fe1ccd244" name="Changes" comment="Added semesterprøve 2018">
-      <change afterPath="$PROJECT_DIR$/Semesterprøve_2018/src/gui/App.java" afterDir="false" />
+    <list default="true" id="7d99e3a9-8e24-4ec5-8aa8-bb0fe1ccd244" name="Changes" comment="Added semesterprøve 2018 gui">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Semesterprøve_2018/Semesterprøve_2018.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Semesterprøve_2018/Semesterprøve_2018.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Semesterprøve_2018/src/controller/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/Semesterprøve_2018/src/controller/Controller.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Semesterprøve_2018/src/gui/Gui.java" beforeDir="false" afterPath="$PROJECT_DIR$/Semesterprøve_2018/src/gui/Gui.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Semesterprøve_2018/src/gui/test.java" beforeDir="false" afterPath="$PROJECT_DIR$/Semesterprøve_2018/src/gui/test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Semesterprøve_2018/src/model/Arrangement.java" beforeDir="false" afterPath="$PROJECT_DIR$/Semesterprøve_2018/src/model/Arrangement.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Semesterprøve_2018/src/model/Hold.java" beforeDir="false" afterPath="$PROJECT_DIR$/Semesterprøve_2018/src/model/Hold.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Semesterprøve_2018/src/model/Tutor.java" beforeDir="false" afterPath="$PROJECT_DIR$/Semesterprøve_2018/src/model/Tutor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Semesterprøve_2018/src/model/Uddannelse.java" beforeDir="false" afterPath="$PROJECT_DIR$/Semesterprøve_2018/src/model/Uddannelse.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -90,7 +83,7 @@
       <recent name="opg2" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.test">
+  <component name="RunManager" selected="Application.App (4)">
     <configuration name="App (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="demo2listview.App" />
       <module name="LO16_GUI2" />
@@ -158,11 +151,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.App (4)" />
         <item itemvalue="Application.test" />
         <item itemvalue="Application.App (2)" />
         <item itemvalue="Application.App (1)" />
         <item itemvalue="Application.App" />
-        <item itemvalue="Application.App (4)" />
       </list>
     </recent_temporary>
   </component>
@@ -197,6 +190,7 @@
     <MESSAGE value="Added opg 1,2 og 3 Sorting" />
     <MESSAGE value="Added semesterprøve 2020" />
     <MESSAGE value="Added semesterprøve 2018" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added semesterprøve 2018" />
+    <MESSAGE value="Added semesterprøve 2018 gui" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added semesterprøve 2018 gui" />
   </component>
 </project>
