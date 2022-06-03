@@ -1,5 +1,8 @@
 package controller;
 
+import javafx.collections.FXCollections;
+import javafx.collections.ObservableArray;
+import javafx.collections.ObservableList;
 import model.Arrangement;
 import model.Hold;
 import model.Tutor;
@@ -58,6 +61,7 @@ public class Controller {
         uddannelse.getAlleHold().add(hold);
     }
 
+
     /**
      * Tutor må ikke være tilsluttet et hold
      *
@@ -97,6 +101,12 @@ public class Controller {
         }
         return holdUdenTutor;
     }
+
+//    public static ObservableList<Arrangement> guiTutorArrangement(Tutor tutor){
+//       ObservableList<Arrangement> observableList = FXCollections.observableList(tutor.getArrangementer());
+//       return observableList;
+    }
+
 
 
     public static void initStorage() {

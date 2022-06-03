@@ -44,4 +44,10 @@ public class Tutor {
         }
         return sum;
     }
+    @Override
+    public String toString() {
+        if(getHold() != null)
+        return String.format("%s %s %s", navn, email, hold);
+        else return String.format("%s %s", navn, email);
+    }
 }

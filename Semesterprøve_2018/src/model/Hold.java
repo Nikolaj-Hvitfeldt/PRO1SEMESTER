@@ -61,4 +61,8 @@ public class Hold {
         }
         return false;
     }
+    @Override
+    public String toString() {
+        return String.format("%s %s",betegnelse,holdleder);
+    }
 }

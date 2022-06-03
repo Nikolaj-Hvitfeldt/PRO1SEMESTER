@@ -10,11 +10,11 @@ public class Arrangement {
     private LocalDate dato;
     private LocalTime startTid;
     private LocalTime slutTid;
-    private int pris;
+    private double pris;
 
     private final ArrayList<Tutor> tutorer = new ArrayList<>();
 
-    public Arrangement(String titel, LocalDate dato, LocalTime startTid, LocalTime slutTid, int pris) {
+    public Arrangement(String titel, LocalDate dato, LocalTime startTid, LocalTime slutTid, double pris) {
         this.titel = titel;
         this.dato = dato;
         this.startTid = startTid;
@@ -54,7 +54,7 @@ public class Arrangement {
         this.slutTid = slutTid;
     }
 
-    public int getPris() {
+    public double getPris() {
         return pris;
     }
 
@@ -64,6 +64,11 @@ public class Arrangement {
 
     public ArrayList<Tutor> getTutorer() {
         return tutorer;
+    }
+
+    @Override
+    public String toString() {
+        return String.format("%s %s %s %s %.2f", titel,dato,startTid,slutTid,pris);
     }
 }
 

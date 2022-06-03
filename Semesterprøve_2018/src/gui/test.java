@@ -9,10 +9,11 @@ import model.Uddannelse;
 import java.time.LocalDate;
 import java.time.LocalTime;
 
+import static controller.Controller.tilføjArrangementTilTutor;
+
 public class test {
 
     public static void main(String[] args) {
-        Controller.initStorage();
 
         Uddannelse u1 = Controller.opretUddannelse("DMU");
         Uddannelse u2 = Controller.opretUddannelse("FINØ");
@@ -38,11 +39,14 @@ public class test {
         Arrangement a3 = Controller.opretArrangement("Brætspil", LocalDate.of(2017, 8, 29), LocalTime.of(12, 0), LocalTime.of(16, 30), 25);
         Arrangement a4 = Controller.opretArrangement("Mindeparken", LocalDate.of(2017, 8, 30), LocalTime.of(18, 0), LocalTime.of(22, 0), 25);
 
-        Controller.tilføjTutortilHold(t1,h1);
-        Controller.tilføjArrangementTilTutor(a1,t1);
+//        Controller.tilføjTutortilHold(t1,h1);
+//        Controller.tilføjArrangementTilTutor(a1,t1);
 //        t1.getArrangementer().add(a1);
 //        System.out.println(t1.getArrangementer());
-        Controller.tilføjArrangementTilTutor(a2,t1);
+//        Controller.tilføjArrangementTilTutor(a2,t1);
+//        System.out.println(t1.getArrangementer());
+
+
         System.out.println(t1.getArrangementer());
 
     }
