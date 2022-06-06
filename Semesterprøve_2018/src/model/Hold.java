@@ -10,7 +10,7 @@ public class Hold {
     Uddannelse uddannelse; // package visible
 
     // association 0..* <---->
-    private ArrayList<Tutor> tutorer = new ArrayList<>();
+    private final ArrayList<Tutor> tutorer = new ArrayList<>();
 
     public Hold(String betegnelse, String holdleder) { // package visible
         this.betegnelse = betegnelse;
@@ -61,6 +61,7 @@ public class Hold {
         }
         return false;
     }
+
     @Override
     public String toString() {
         return String.format("%s %s",betegnelse,holdleder);

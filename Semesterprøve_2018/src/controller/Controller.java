@@ -1,8 +1,6 @@
 package controller;
 
-import javafx.collections.FXCollections;
-import javafx.collections.ObservableArray;
-import javafx.collections.ObservableList;
+
 import model.Arrangement;
 import model.Hold;
 import model.Tutor;
@@ -27,8 +25,8 @@ public class Controller {
         return Storage.getUddannelser();
     }
 
-    public static Tutor opretTutor(String navn, String email, Hold hold) {
-        Tutor tutor = new Tutor(navn, email, hold);
+    public static Tutor opretTutor(String navn, String email) {
+        Tutor tutor = new Tutor(navn, email);
         Storage.storeTutor(tutor);
         return tutor;
     }
@@ -41,6 +39,10 @@ public class Controller {
         Arrangement arrangement = new Arrangement(titel, dato, startTid, slutTid, pris);
         Storage.storeArrangement(arrangement);
         return arrangement;
+    }
+
+    public static ArrayList<Arrangement> getTutorArrangementer(Tutor tutor){
+       return tutor.getArrangementer();
     }
 
     public static ArrayList<Arrangement> getArrangementer() {
@@ -79,7 +81,7 @@ public class Controller {
 
     /**
      * pre: Tutor må ikke have et arrangement på tilsvarende tidspunkt.
-     * Tuor skal være tilknyttet hold.
+     * Tutor skal være tilknyttet hold.
      *
      * @param tutor
      * @param arrangement
@@ -102,13 +104,6 @@ public class Controller {
         return holdUdenTutor;
     }
 
-//    public static ObservableList<Arrangement> guiTutorArrangement(Tutor tutor){
-//       ObservableList<Arrangement> observableList = FXCollections.observableList(tutor.getArrangementer());
-//       return observableList;
-//    }
-
-
-
     public static void initStorage() {
 
         Uddannelse u1 = opretUddannelse("DMU");
@@ -124,11 +119,11 @@ public class Controller {
         tilføjHoldTilUddannelse(h3, u1);
         tilføjHoldTilUddannelse(h4, u2);
 
-        Tutor t1 = opretTutor("Ander Hansen", "aaa@students.eaaa.dk", null);
-        Tutor t2 = opretTutor("Peter Jensen", "ppp@students.eaaa.dk", null);
-        Tutor t3 = opretTutor("Niels Madsen", "nnn@students.eaaa.dk", null);
-        Tutor t4 = opretTutor("Lone Andersen", "lll@students.eaaa.dk", null);
-        Tutor t5 = opretTutor("Mads Miller", "mmm@students.eaaa.dk", null);
+        Tutor t1 = opretTutor("Ander Hansen", "aaa@students.eaaa.dk");
+        Tutor t2 = opretTutor("Peter Jensen", "ppp@students.eaaa.dk");
+        Tutor t3 = opretTutor("Niels Madsen", "nnn@students.eaaa.dk");
+        Tutor t4 = opretTutor("Lone Andersen", "lll@students.eaaa.dk");
+        Tutor t5 = opretTutor("Mads Miller", "mmm@students.eaaa.dk");
 
         tilføjTutortilHold(t1,h1);
         tilføjTutortilHold(t4,h1);

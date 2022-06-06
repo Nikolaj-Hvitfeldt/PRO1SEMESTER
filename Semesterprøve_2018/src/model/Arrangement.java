@@ -68,7 +68,7 @@ public class Arrangement {
 
     @Override
     public String toString() {
-        return String.format("%s %s %s %s %.2f", titel,dato,startTid,slutTid,pris);
+        return String.format("%s %s %s %s %.2f", titel, dato, startTid, slutTid, pris);
     }
 }
 

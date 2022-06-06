@@ -11,10 +11,9 @@ public class Tutor {
 
     private final ArrayList<Arrangement> arrangementer = new ArrayList<>();
 
-    public Tutor(String navn, String email, Hold hold) {
+    public Tutor(String navn, String email) {
         this.navn = navn;
         this.email = email;
-        this.hold = hold;
     }
 
     public ArrayList<Arrangement> getArrangementer() {
@@ -25,7 +24,7 @@ public class Tutor {
         return navn;
     }
 
-    public void setHold(Hold hold){
+    public void setHold(Hold hold) {
         this.hold = hold;
     }
 
@@ -37,17 +36,18 @@ public class Tutor {
         return hold;
     }
 
-    public double arrangementsPris(){
+    public double arrangementsPris() {
         double sum = 0;
-        for (Arrangement e :this.arrangementer){
+        for (Arrangement e : this.arrangementer) {
             sum += e.getPris();
         }
         return sum;
     }
+
     @Override
     public String toString() {
-        if(getHold() != null)
-        return String.format("%s %s %s", navn, email, hold);
+        if (getHold() != null)
+            return String.format("%s %s %s", navn, email, hold);
         else return String.format("%s %s", navn, email);
     }
 }

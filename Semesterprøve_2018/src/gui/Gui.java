@@ -3,12 +3,8 @@ package gui;
 import controller.Controller;
 import javafx.application.Application;
 import javafx.beans.value.ChangeListener;
-import javafx.collections.FXCollections;
-import javafx.collections.ObservableList;
 import javafx.geometry.Insets;
-import javafx.geometry.Pos;
 import javafx.geometry.VPos;
-import javafx.scene.Cursor;
 import javafx.scene.Scene;
 import javafx.scene.control.*;
 import javafx.scene.layout.GridPane;
@@ -16,7 +12,8 @@ import javafx.stage.Stage;
 import model.Arrangement;
 import model.Tutor;
 
-import java.awt.event.MouseEvent;
+import java.lang.reflect.Array;
+import java.util.ArrayList;
 
 public class Gui extends Application {
 
@@ -32,10 +29,12 @@ public class Gui extends Application {
     //----------------------------------------------------------------------------------------
 
     private final ListView<Tutor> lsvtutor = new ListView<>();
-    private final TextArea txaArrangementer = new TextArea();
+    private final ListView<Arrangement> lvwArrangementer = new ListView<>();
     private final ListView<Arrangement> lsvMuligeArrangementer = new ListView<>();
     private final TextField txfNavn = new TextField();
     private final TextField txfEmail = new TextField();
+    private ArrayList<Arrangement> alleArrangementer = Controller.getArrangementer();
+    private ArrayList<Arrangement> tutorArrangementer = new ArrayList<>();
 
     private void initContent(GridPane pane){
         Controller.initStorage();
@@ -67,27 +66,41 @@ public class Gui extends Application {
         Label lblArrangement = new Label("Arrangementer:");
         pane.add(lblArrangement,1,2);
         GridPane.setValignment(lblArrangement, VPos.TOP);
-        pane.add(txaArrangementer,2,2);
-        txaArrangementer.prefHeight(150);
+        pane.add(lvwArrangementer,2,2);
+        lvwArrangementer.prefHeight(150);
 
         Button btnFjern = new Button("Fjern");
         pane.add(btnFjern,2,3);
-//        btnFjern.setOnAction(event -> this.fjernAction);
+        btnFjern.setOnAction(event -> this.fjernAction());
 
 
         Label lblAlleMuligeArrangementer = new Label("Alle mulige Arrangementer");
         pane.add(lblAlleMuligeArrangementer,3,1);
         pane.add(lsvMuligeArrangementer,3,2);
         lsvMuligeArrangementer.prefHeight(150);
-        lsvMuligeArrangementer.getItems().setAll(Controller.getArrangementer());
+        lsvMuligeArrangementer.getItems().setAll(alleArrangementer);
 
         Button btnTilføj = new Button("Tilføj");
         pane.add(btnTilføj,3,3);
 //        btnTilføj.setOnAction(event -> this.tilføjAction);
     }
 
-    private void fjernAction(){
+    private void fjernAction() {
+        Arrangement arrangement = lvwArrangementer.getSelectionModel().getSelectedItem();
+        if (arrangement != null) {
+            tutorArrangementer.remove(arrangement);
+        }
+        lvwArrangementer.getItems().setAll(tutorArrangementer);
+    }
 
+    private void tilføjAction(){
+        Arrangement arrangement = lsvMuligeArrangementer.getSelectionModel().getSelectedItem();
+        if(arrangement != null){
+           alleArrangementer.remove(arrangement);
+           tutorArrangementer.add(arrangement);
+        }
+        lsvMuligeArrangementer.getItems().setAll(alleArrangementer);
+        lvwArrangementer.getItems().setAll(tutorArrangementer);
     }
 
     private void fillFields(Tutor tutor) {
@@ -95,12 +108,9 @@ public class Gui extends Application {
         txfNavn.setText(tutor.getNavn());
         txfEmail.clear();
         txfEmail.setText(tutor.getEmail());
-    }
-//
-//    private void fillTutorArrangementer(){
-//     Tutor selected = lsvtutor.getSelectionModel().getSelectedItem();
-//     lsvtutor.getItems().setAll((Tutor) Controller.guiTutorArrangement(selected));
-//    }
+        tutorArrangementer = tutor.getArrangementer();
+        lvwArrangementer.getItems().setAll(tutorArrangementer);
+        }
 
     private void tutorSelectionChanged(){
         Tutor selected = lsvtutor.getSelectionModel().getSelectedItem();

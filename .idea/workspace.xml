@@ -5,9 +5,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7d99e3a9-8e24-4ec5-8aa8-bb0fe1ccd244" name="Changes" comment="Added semesterprøve 2018 gui">
+      <change afterPath="$PROJECT_DIR$/Semesterprøve_2019/Semesterprøve_2019.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Semesterprøve_2019/src/model/Bestilling.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Semesterprøve_2019/src/model/Forestilling.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Semesterprøve_2019/src/model/Kunde.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Semesterprøve_2019/src/model/Plads.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Semesterprøve_2018/src/controller/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/Semesterprøve_2018/src/controller/Controller.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Semesterprøve_2018/src/gui/Gui.java" beforeDir="false" afterPath="$PROJECT_DIR$/Semesterprøve_2018/src/gui/Gui.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Semesterprøve_2018/src/gui/test.java" beforeDir="false" afterPath="$PROJECT_DIR$/Semesterprøve_2018/src/gui/test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Semesterprøve_2018/src/model/Arrangement.java" beforeDir="false" afterPath="$PROJECT_DIR$/Semesterprøve_2018/src/model/Arrangement.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Semesterprøve_2018/src/model/Hold.java" beforeDir="false" afterPath="$PROJECT_DIR$/Semesterprøve_2018/src/model/Hold.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Semesterprøve_2018/src/model/Tutor.java" beforeDir="false" afterPath="$PROJECT_DIR$/Semesterprøve_2018/src/model/Tutor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Semesterprøve_2018/src/model/Uddannelse.java" beforeDir="false" afterPath="$PROJECT_DIR$/Semesterprøve_2018/src/model/Uddannelse.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

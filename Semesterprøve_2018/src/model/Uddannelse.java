@@ -26,6 +26,7 @@ public class Uddannelse {
         alleHold.add(hold);
         return hold;
     }
+
     @Override
     public String toString() {
         return String.format("%s ",navn);

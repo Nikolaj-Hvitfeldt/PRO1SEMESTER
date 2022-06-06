@@ -28,11 +28,11 @@ public class test {
         Controller.tilføjHoldTilUddannelse(h3, u1);
         Controller.tilføjHoldTilUddannelse(h4, u2);
 
-        Tutor t1 = Controller.opretTutor("Ander Hansen", "aaa@students.eaaa.dk", null);
-        Tutor t2 = Controller.opretTutor("Peter Jensen", "ppp@students.eaaa.dk", null);
-        Tutor t3 = Controller.opretTutor("Niels Madsen", "nnn@students.eaaa.dk", null);
-        Tutor t4 = Controller.opretTutor("Lone Andersen", "lll@students.eaaa.dk", null);
-        Tutor t5 = Controller.opretTutor("Mads Miller", "mmm@students.eaaa.dk", null);
+        Tutor t1 = Controller.opretTutor("Ander Hansen", "aaa@students.eaaa.dk");
+        Tutor t2 = Controller.opretTutor("Peter Jensen", "ppp@students.eaaa.dk");
+        Tutor t3 = Controller.opretTutor("Niels Madsen", "nnn@students.eaaa.dk");
+        Tutor t4 = Controller.opretTutor("Lone Andersen", "lll@students.eaaa.dk");
+        Tutor t5 = Controller.opretTutor("Mads Miller", "mmm@students.eaaa.dk");
 
         Arrangement a1 = Controller.opretArrangement("Rusfest", LocalDate.of(2017, 8, 31), LocalTime.of(18, 0), LocalTime.of(23, 30), 250);
         Arrangement a2 = Controller.opretArrangement("Fodbold", LocalDate.of(2017, 8, 30), LocalTime.of(14, 0), LocalTime.of(17, 30), 100);
