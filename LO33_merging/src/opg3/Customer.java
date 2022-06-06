@@ -1,6 +1,6 @@
 package opg3;
 
-public class Customer implements Comparable<Customer> {
+public class Customer implements Comparable{
 
     private String firstName;
     private String lastName;
