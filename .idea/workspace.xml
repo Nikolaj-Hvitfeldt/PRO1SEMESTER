@@ -4,32 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7d99e3a9-8e24-4ec5-8aa8-bb0fe1ccd244" name="Changes" comment="Added semesterprøve 2018 gui">
-      <change afterPath="$PROJECT_DIR$/LO32_files&amp;exceptions/src/ex1/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LO33_merging/src/opg3/Comparable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LO34_Repetition/LO34_Repetition.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LO34_Repetition/src/ex1/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LO34_Repetition/src/ex1/TalFil.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LO34_Repetition/src/ex2/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LO34_Repetition/src/ex2/personer.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LO34_Repetition/src/ex3/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LO34_Repetition/src/ex3/fil1.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LO34_Repetition/src/ex3/fil2.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LO34_Repetition/src/ex3/merged.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LO34_Repetition/src/ex4/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LO34_Repetition/src/ex4/commonfile.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LO34_Repetition/src/ex4/fil1.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LO34_Repetition/src/ex4/fil2.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LO34_Repetition/src/ex5/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LO34_Repetition/src/ex5/Comparable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LO34_Repetition/src/ex5/Kunde.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LO34_Repetition/src/ex6/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LO34_Repetition/src/ex6/Kunde.java" afterDir="false" />
+    <list default="true" id="7d99e3a9-8e24-4ec5-8aa8-bb0fe1ccd244" name="Changes" comment="Added LO34 Repetition">
+      <change afterPath="$PROJECT_DIR$/Semesterprøve_2021/src/controller/Controller.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Semesterprøve_2021/src/model/Deltagelse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Semesterprøve_2021/src/model/DeltagerStatus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Semesterprøve_2021/src/model/Fag.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Semesterprøve_2021/src/model/Lektion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Semesterprøve_2021/src/model/Studerende.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Semesterprøve_2021/src/model/test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Semesterprøve_2021/src/storage/Storage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LO32_files&amp;exceptions/src/opg4/opg4.txt" beforeDir="false" afterPath="$PROJECT_DIR$/LO32_files&amp;exceptions/src/opg4/opg4.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LO33_merging/src/opg3/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/LO33_merging/src/opg3/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LO33_merging/src/opg3/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/LO33_merging/src/opg3/Customer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LO34_Repetition/src/ex6/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/LO34_Repetition/src/ex6/App.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,8 +28,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Enum" />
         <option value="Interface" />
+        <option value="Enum" />
         <option value="Class" />
       </list>
     </option>
@@ -107,26 +93,13 @@
       <recent name="opg2" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.App (1)">
+  <component name="RunManager" selected="Application.test">
     <configuration name="App (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ex6.App" />
       <module name="LO34_Repetition" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="ex6.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="App (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ex2.App" />
-      <module name="LO34_Repetition" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ex2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -173,13 +146,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="model.test" />
+      <module name="Semesterprøve_2021" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.test" />
         <item itemvalue="Application.App (1)" />
         <item itemvalue="Application.App" />
         <item itemvalue="Application.App (5)" />
         <item itemvalue="Application.App (4)" />
-        <item itemvalue="Application.App (3)" />
       </list>
     </recent_temporary>
   </component>
@@ -215,6 +195,7 @@
     <MESSAGE value="Added semesterprøve 2020" />
     <MESSAGE value="Added semesterprøve 2018" />
     <MESSAGE value="Added semesterprøve 2018 gui" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added semesterprøve 2018 gui" />
+    <MESSAGE value="Added LO34 Repetition" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added LO34 Repetition" />
   </component>
 </project>
