@@ -21,6 +21,7 @@ public class Lektion {
         this.starTid = starTid;
         this.lokale = lokale;
         this.fag = fag;
+        fag.addLektion(this);
     }
 
     public ArrayList<Deltagelse> getDeltagelser() {
@@ -46,6 +47,7 @@ public class Lektion {
     public Deltagelse opretDeltagelse(Studerende studerende){
         Deltagelse deltagelse = new Deltagelse(studerende);
         deltagelser.add(deltagelse);
+        deltagelse.lektion = this;
         return deltagelse;
     }
 }

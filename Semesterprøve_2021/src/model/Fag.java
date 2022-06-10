@@ -24,6 +24,14 @@ public class Fag {
         return klasse;
     }
 
+    public void addLektion(Lektion lektion) {
+        lektioner.add(lektion);
+    }
+
+    public ArrayList<Lektion> getLektioner() {
+        return lektioner;
+    }
+
     public ArrayList<Studerende> sygdomPåDato(LocalDate dato) {
         ArrayList<Studerende> sygeStuderende = new ArrayList<>();
         for (Lektion e : lektioner) {
@@ -37,5 +45,25 @@ public class Fag {
             }
         }
         return sygeStuderende;
+    }
+
+    public Lektion lektionMedMestFravær() {
+        int højestFravær = 0;
+        int count = 0;
+        Lektion pjækkeLektionen = null;
+        for (int i = 0; i < lektioner.size(); i++) {
+            for (Deltagelse d : lektioner.get(i).getDeltagelser()) {
+                while (d.getStuderende() == null) {
+                    if (d.erRegistreretFraværende()) {
+                        count++;
+                    }
+                }
+                if (count > højestFravær) {
+                    højestFravær = count;
+                }
+                pjækkeLektionen = lektioner.get(i);
+            }
+        }
+        return pjækkeLektionen;
     }
 }
