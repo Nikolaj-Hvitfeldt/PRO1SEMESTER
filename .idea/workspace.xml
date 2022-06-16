@@ -4,11 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7d99e3a9-8e24-4ec5-8aa8-bb0fe1ccd244" name="Changes" comment="Added Semesterprøve 2021 opg 1-6">
-      <change afterPath="$PROJECT_DIR$/Semesterprøve_2016/Semesterprøve_2016.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Semesterprøve_2016/src/model/Bane.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Semesterprøve_2016/src/model/Medlem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Semesterprøve_2016/src/model/Reservation.java" afterDir="false" />
+    <list default="true" id="7d99e3a9-8e24-4ec5-8aa8-bb0fe1ccd244" name="Changes" comment="Added addMedlem for Semesterprøve_2016">
+      <change afterPath="$PROJECT_DIR$/Nikolaj_H_H_Jensen_Semesterprøve2022/Nikolaj_H_H_Jensen_Semesterprøve2022.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Nikolaj_H_H_Jensen_Semesterprøve2022/src/controller/Controller.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Nikolaj_H_H_Jensen_Semesterprøve2022/src/gui/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Nikolaj_H_H_Jensen_Semesterprøve2022/src/gui/Gui.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Nikolaj_H_H_Jensen_Semesterprøve2022/src/model/Antal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Nikolaj_H_H_Jensen_Semesterprøve2022/src/model/Funktion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Nikolaj_H_H_Jensen_Semesterprøve2022/src/model/Medarbejder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Nikolaj_H_H_Jensen_Semesterprøve2022/src/model/Vagt.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Nikolaj_H_H_Jensen_Semesterprøve2022/src/storage/Storage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
@@ -88,7 +93,7 @@
       <recent name="opg2" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.test">
+  <component name="RunManager" selected="Application.App (2)">
     <configuration name="App (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ex6.App" />
       <module name="LO34_Repetition" />
@@ -102,25 +107,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="App (4)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ex3.App" />
-      <module name="LO34_Repetition" />
+    <configuration name="App (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="gui.App" />
+      <module name="Nikolaj_H_H_Jensen_Semesterprøve2022" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ex3.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="App (5)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ex4.App" />
-      <module name="LO34_Repetition" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ex4.*" />
+          <option name="PATTERN" value="gui.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -141,6 +133,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="YatzyApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="gui.YatzyApp" />
+      <module name="LO18_Yatzy" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="gui.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="model.test" />
       <module name="Semesterprøve_2021" />
@@ -150,11 +155,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.App (2)" />
+        <item itemvalue="Application.YatzyApp" />
         <item itemvalue="Application.test" />
         <item itemvalue="Application.App (1)" />
         <item itemvalue="Application.App" />
-        <item itemvalue="Application.App (5)" />
-        <item itemvalue="Application.App (4)" />
       </list>
     </recent_temporary>
   </component>
@@ -192,6 +197,7 @@
     <MESSAGE value="Added semesterprøve 2018 gui" />
     <MESSAGE value="Added LO34 Repetition" />
     <MESSAGE value="Added Semesterprøve 2021 opg 1-6" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added Semesterprøve 2021 opg 1-6" />
+    <MESSAGE value="Added addMedlem for Semesterprøve_2016" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added addMedlem for Semesterprøve_2016" />
   </component>
 </project>
