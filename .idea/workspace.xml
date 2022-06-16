@@ -1,21 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AnalysisUIOptions">
+    <option name="SCOPE_TYPE" value="4" />
+  </component>
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7d99e3a9-8e24-4ec5-8aa8-bb0fe1ccd244" name="Changes" comment="Added addMedlem for Semesterprøve_2016">
-      <change afterPath="$PROJECT_DIR$/Nikolaj_H_H_Jensen_Semesterprøve2022/Nikolaj_H_H_Jensen_Semesterprøve2022.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Nikolaj_H_H_Jensen_Semesterprøve2022/src/controller/Controller.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Nikolaj_H_H_Jensen_Semesterprøve2022/src/gui/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Nikolaj_H_H_Jensen_Semesterprøve2022/src/gui/Gui.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Nikolaj_H_H_Jensen_Semesterprøve2022/src/model/Antal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Nikolaj_H_H_Jensen_Semesterprøve2022/src/model/Funktion.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Nikolaj_H_H_Jensen_Semesterprøve2022/src/model/Medarbejder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Nikolaj_H_H_Jensen_Semesterprøve2022/src/model/Vagt.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Nikolaj_H_H_Jensen_Semesterprøve2022/src/storage/Storage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+    <list default="true" id="7d99e3a9-8e24-4ec5-8aa8-bb0fe1ccd244" name="Changes" comment="Added Semesterprøve for 2022">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Nikolaj_H_H_Jensen_Semesterprøve2022/src/controller/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/Nikolaj_H_H_Jensen_Semesterprøve2022/src/controller/Controller.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Nikolaj_H_H_Jensen_Semesterprøve2022/src/model/Antal.java" beforeDir="false" afterPath="$PROJECT_DIR$/Nikolaj_H_H_Jensen_Semesterprøve2022/src/model/Antal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Nikolaj_H_H_Jensen_Semesterprøve2022/src/model/Medarbejder.java" beforeDir="false" afterPath="$PROJECT_DIR$/Nikolaj_H_H_Jensen_Semesterprøve2022/src/model/Medarbejder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Nikolaj_H_H_Jensen_Semesterprøve2022/src/model/Vagt.java" beforeDir="false" afterPath="$PROJECT_DIR$/Nikolaj_H_H_Jensen_Semesterprøve2022/src/model/Vagt.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,6 +42,9 @@
       <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
     </file-type-list>
   </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
   <component name="ProjectId" id="253vmjEUMYomSQ2OUgz723I0WBn" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -69,6 +69,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
@@ -198,6 +199,7 @@
     <MESSAGE value="Added LO34 Repetition" />
     <MESSAGE value="Added Semesterprøve 2021 opg 1-6" />
     <MESSAGE value="Added addMedlem for Semesterprøve_2016" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added addMedlem for Semesterprøve_2016" />
+    <MESSAGE value="Added Semesterprøve for 2022" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added Semesterprøve for 2022" />
   </component>
 </project>

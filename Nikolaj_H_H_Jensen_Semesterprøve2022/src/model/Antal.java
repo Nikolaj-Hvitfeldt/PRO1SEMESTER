@@ -2,7 +2,7 @@ package model;
 
 public class Antal {
 
-    private int antal;
+    private final int antal;
 
     //Association 1 --> Funktion
     Funktion funktion;

@@ -9,8 +9,8 @@ import java.util.Arrays;
 public class Vagt {
 
     private final String navn;
-    private LocalDateTime tidFra;
-    private LocalDateTime tidTil;
+    private final LocalDateTime tidFra;
+    private final LocalDateTime tidTil;
 
     //Association 0..* <--> Medarbejder
     ArrayList<Medarbejder> medarbejderer = new ArrayList<>();
@@ -69,8 +69,7 @@ public class Vagt {
     }
 
     public int beregnTimeforbrug() {
-        int total = (int) this.getTidFra().until(getTidTil(), ChronoUnit.HOURS) * this.getMedarbejderer().size();
-        return total;
+        return (int) this.getTidFra().until(getTidTil(), ChronoUnit.HOURS) * this.getMedarbejderer().size();
     }
 
     // Hvis der er ønsket en Arraylist af Medarbejdere i opg 4
@@ -112,16 +111,13 @@ public class Vagt {
     }
 
 
-    //Crasher programmet hvis man append'er returneret String til metoden nedenunder :)
-    // Et kvalificeret bud kunne være at koden ikke virker.
+    //Koden fungerer ikke :)
     public String status() {
-        int i = 0;
         String str = "Status: Ressourcer ikke tildelt";
-        while( i<antalFunktioner.size()){
-            int k = antalFunktioner.get(i).getAntal();
-            if(k == antalMedarbejdereMedFunktion(antalFunktioner.get(i).getFunktion())){
-                str = "Status Ressourcer tildelt";
-            }
+        for (Antal a : antalFunktioner) {
+            for (Medarbejder m : medarbejderer)
+                if (m.getFunktioner().contains(a.getFunktion()) && a.getAntal() <= antalMedarbejdereMedFunktion(a.getFunktion()))
+                    str = "Status: Ressourcer tildelt";
         }
         return str;
     }
@@ -130,7 +126,7 @@ public class Vagt {
 
     public String valgtVagtToString() {
         StringBuilder str = new StringBuilder();
-        str.append("Navn : ").append(navn).append("\n").append("Fra: ").append(tidFra).append("\n").append("Til: ").append(tidTil).append("\n").append("Tilknyttede medarbejdere: ").append("\n");
+        str.append("Navn : ").append(navn).append("\n").append("Fra: ").append(tidFra).append("\n").append("Til: ").append(tidTil).append("\n").append(status()).append("\n").append("Tilknyttede medarbejdere: ").append("\n");
         for (Medarbejder e : medarbejderer) {
             str.append(e.getNavn()).append(", ");
         }

@@ -6,8 +6,8 @@ import java.util.ArrayList;
 public class Medarbejder {
 
     private final String navn;
-    private int antalTimerPrDag;
-    private LocalTime typiskMødetid;
+    private final int antalTimerPrDag;
+    private final LocalTime typiskMødetid;
 
     //Association 0..*--> Funktion
     ArrayList<Funktion> funktioner = new ArrayList<>();

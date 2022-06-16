@@ -92,7 +92,6 @@ public class Controller {
         tilføjVagtTilMedarbejder(m1,v1);
         tilføjVagtTilMedarbejder(m2,v1);
         tilføjVagtTilMedarbejder(m3,v1);
-        tilføjVagtTilMedarbejder(m4,v1);
 
         //Peters funktioner tildeles
         tilføjFunktionTilMedarbejder(m1,f2);
